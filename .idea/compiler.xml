@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-ribbon" />
         <module name="spring-boot" />
         <module name="spring-boot-client" />
         <module name="spring-boot-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-service-ribbon" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

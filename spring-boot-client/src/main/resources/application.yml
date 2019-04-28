@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: spring-boot-client
+
 eureka:
   client:
     service-url:
